@@ -63,4 +63,17 @@ class AuthController extends Controller
 
     return view('test', compact('name'));
 }
+
+    public function showdashboard()  
+    {  
+        return view('navbar.dashboard');  
+    }  
+    public function showblog()  
+    {  
+        return view('navbar.blog');  
+    }  
+    public function showcontact()  
+    {  
+        return view('navbar.contact');  
+    }
 }

@@ -43,12 +43,6 @@
     <main class="container mx-auto p-6">
         <h3 class="text-2xl font-semibold text-center">Dashboard</h3>
     </main>
-        <div class="flex justify-center">
-            <h1>About Me :</h1>
-        </div>
-        <div class="flex justify-center">  
-            <p>Name: {{ $name }}</p>
-        </div>
 
     <footer class="text-center py-4">
         <p>&copy; 2025</p>

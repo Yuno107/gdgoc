@@ -31,3 +31,7 @@ Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('login.submit');  
 
 Route::get('/test/{id}', [AuthController::class, 'showTest'])->name('showTest');
+//route for navbar
+Route::get('/dashboard', [AuthController::class, 'showdashboard'])->name('showdashboard');
+Route::get('/blog', [AuthController::class, 'showblog'])->name('showblog');
+Route::get('/contact', [AuthController::class, 'showcontact'])->name('showcontact');
